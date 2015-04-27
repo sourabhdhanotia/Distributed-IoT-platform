@@ -1,0 +1,133 @@
+<!--[if HTML5]><![endif]-->
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="ie ie6 ie-lte9 ie-lte8 ie-lte7 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7 ie-lte9 ie-lte8 ie-lte7 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8 ie-lte9 ie-lte8 no-js" lang="en-us"> <![endif]-->
+<!--[if IE 9]><html class="ie9 ie-lte9 no-js" lang="en-us"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en-us"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>GROUP-5 | Admin Panel</title>
+
+  <!--[if !HTML5]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
+  <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+  <!-- Always force latest IE rendering engine
+       (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+     
+  <meta charset="utf-8">
+
+  <!-- http://dev.w3.org/html5/markup/meta.name.html -->
+  <meta name="application-name" content="Go-Online | Admin Panel">
+
+  <!-- Speaking of Google, don't forget to set your site up:
+       http://google.com/webmasters -->
+  <meta name="google-site-verification" content="">
+
+  <!--  Mobile Viewport Fix
+        j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+        device-width: Occupy full width of the screen in its current orientation
+        initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+        user-scalable = yes allows the user to zoom in -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://veerendra4.pythonanywhere.com/ecom/static/images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://veerendra4.pythonanywhere.com/ecom/static/images/favicon.png">
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables
+       HTML5 elements & feature detects -->
+  <script src="/modernizr.js"></script>
+
+  <!-- include stylesheets -->
+  
+
+  <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_disable_with_message = "Working...";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    var ajax_error_500 = 'An error occured, please <a href="/ecom/default/user/login?_next=%2Fecom%2Fadmin%2Fmanage">reload</a> the page'
+    //--></script>
+
+<meta name="keywords" content="web2py, python, framework">
+<meta name="generator" content="Web2py Web Framework">
+<meta name="author" content="Your Name &lt;you@example.com&gt;">
+<script src="/jquery.js" type="text/javascript"></script>
+<script src="/myscript.js" type="text/javascript"></script>
+<link href="/calendar.css" rel="stylesheet" type="text/css">
+<script src="/calendar.js" type="text/javascript"></script>
+<script src="/web2py.js" type="text/javascript"></script>
+<script src="/admin.js" type="text/javascript"></script>
+<script src="/chosen.js" type="text/javascript"></script>
+<script src="/dataTables.js" type="text/javascript"></script>
+<link href="/web2py.css" rel="stylesheet" type="text/css">
+<link href="/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+<link href="/admin.css" rel="stylesheet" type="text/css">
+<link href="/web2py_bootstrap.css" rel="stylesheet" type="text/css">
+
+
+  
+
+  <!-- uncomment here to load jquery-ui
+       <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />
+       <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>
+       uncomment to load jquery-ui //-->
+  <noscript><link href="/web2py_bootstrap_nojs.css" rel="stylesheet" type="text/css" /></noscript>
+  
+</head>
+
+<body>
+  <div class="container">
+      <div style="display: none;" class="flash"></div>
+    <!-- Masthead ================================================== -->
+    <section id="main" class="main row">
+        <div class="span12">
+            
+            
+<div id="adminlogin" class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12 pagination-centered">
+			<div class="admin-panel-login">
+				<h1>Group-5™</h1>
+				<h3>Admin Panel Login</h3>
+			</div>
+            <form name=frmM action="/admin" enctype="multipart/form-data" method="post" ><table><tbody><tr id="auth_user_email__row"><td class="w2p_fl"><label for="auth_user_email" id="auth_user_email__label">Username </label></td><td class="w2p_fw"><input class="string" id="auth_user_email" name="email" type="text"></td><td class="w2p_fc"></td></tr><tr id="auth_user_password__row"><td class="w2p_fl"><label for="auth_user_password" id="auth_user_password__label">Password: </label></td><td class="w2p_fw"><input class="password" id="auth_user_password" name="password" value="" type="password"></td><td class="w2p_fc"></td></tr><tr id="auth_user_remember_me__row"><td class="w2p_fl"><label for="auth_user_remember_me" id="auth_user_remember_me__label">Remember me (for 30 days): </label></td><td class="w2p_fw"><input class="boolean" id="auth_user_remember_me" name="remember_me" value="on" type="checkbox"></td><td class="w2p_fc"></td></tr><tr id="submit_record__row"><td class="w2p_fl"></td><td class="w2p_fw"><input class="btn" value="Log In" type="submit" onclick="return myFunction()" ></td><td class="w2p_fc"></td></tr></tbody></table><div style="display:none;"><input name="_next" value="/ecom/admin/manage" type="hidden"><input name="_formkey" value="2afbdbda-b595-41ba-9fbf-95f6b08bd62a" type="hidden"><input name="_formname" value="login" type="hidden"></div></form>
+<!-- 			<form class="form-inline" method="post" action="login">
+				<input type="text" class="input-large" placeholder="Username" name="user" required>
+				<input type="password" class="input-large" placeholder="Password" name="pass" required>
+				<button type="submit" class="btn btn-primary">Sign in</button>
+			</form> -->
+		</div>
+	</div>
+</div>
+
+            
+        </div>
+    </section><!--/main-->
+
+    <!-- Footer ================================================== -->
+    <div class="row">
+        <!-- <footer class="footer span12" id="footer"> -->
+            <div class="footer-content">
+                 <!-- this is default footer -->
+                <div style="margin-left:50px;" class="copyright pull-left">Copyright © 2015</div>
+                
+            </div>
+        <!-- </footer> -->
+    </div>
+
+  </div> <!-- /container -->
+
+  <!-- The javascript =============================================
+       (Placed at the end of the document so the pages load faster) -->
+  <script src="/bootstrap.js"></script>
+  <script src="/web2py_bootstrap.js"></script>
+  
+
+
+</body></html>

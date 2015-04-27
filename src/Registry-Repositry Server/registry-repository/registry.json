@@ -1,0 +1,111 @@
+{
+    "gateways": [
+        {
+            "id": 1,
+            "status": "up",
+            "last_seen_timestamp": 1429374231248,
+            "list_of_sensors": [
+                {
+                    "id": 1001,
+                    "status": "up",
+                    "location": {
+                        "lat": 31.2,
+                        "lon": 60.9
+                    },
+                    "family_id": 11,
+                    "timestamp": 1429374222645
+                },
+                {
+                    "id": 1101,
+                    "status": "up",
+                    "location": {
+                        "lat": 31.2,
+                        "lon": 60.9
+                    },
+                    "family_id": 12,
+                    "timestamp": 1429364610673
+                },
+                {
+                    "id": 2101,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.2,
+                        "lon": 3.5
+                    },
+                    "family_id": 22,
+                    "timestamp": 1429329366415
+                },
+                {
+                    "id": 1201,
+                    "status": "up",
+                    "location": {
+                        "lat": 31.2,
+                        "lon": 60.9
+                    },
+                    "family_id": 13,
+                    "timestamp": 1429374230680
+                },
+                {
+                    "id": 2006,
+                    "status": "up",
+                    "location": {
+                        "lat": 60.6,
+                        "lon": 50.5
+                    },
+                    "family_id": 21,
+                    "timestamp": 1429374065976
+                },
+                {
+                    "id": 2005,
+                    "status": "up",
+                    "location": {
+                        "lat": 40.3,
+                        "lon": 50.4
+                    },
+                    "family_id": 21,
+                    "timestamp": 1429374065976
+                },
+                {
+                    "id": 2004,
+                    "status": "up",
+                    "location": {
+                        "lat": 20.5,
+                        "lon": 50.6
+                    },
+                    "family_id": 21,
+                    "timestamp": 1429374065976
+                },
+                {
+                    "id": 2003,
+                    "status": "up",
+                    "location": {
+                        "lat": 60.2,
+                        "lon": 30.3
+                    },
+                    "family_id": 21,
+                    "timestamp": 1429373973051
+                },
+                {
+                    "id": 2002,
+                    "status": "up",
+                    "location": {
+                        "lat": 40.12,
+                        "lon": 30.9
+                    },
+                    "family_id": 21,
+                    "timestamp": 1429373973051
+                },
+                {
+                    "id": 2001,
+                    "status": "up",
+                    "location": {
+                        "lat": 20.5,
+                        "lon": 30.33
+                    },
+                    "family_id": 21,
+                    "timestamp": 1429373973051
+                }
+            ]
+        }
+    ]
+}

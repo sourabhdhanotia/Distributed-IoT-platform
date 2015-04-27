@@ -1,0 +1,30 @@
+#adminlogin{
+	height: 350px;
+	margin-top: 125px;	
+}
+
+#main-admin{
+	margin-top: 60px;
+	padding-left: 0px;
+}
+
+a:visited{
+    outline: snow;
+}
+
+.sidebar{
+    margin-right: 10px;
+}
+
+h1{
+    font-weight: 200 !important;
+    font-size: 4em !important;
+}
+
+h2{
+    font-weight: 200 !important;
+}
+
+#adminlogin form{
+	padding-left: 230px;
+}

@@ -1,0 +1,105 @@
+{
+    "gateways": [
+        {
+            "id": 0,
+            "status": "up",
+            "last_seen_timestamp": 1429305900014,
+            "list_of_sensors": [
+                {
+                    "id": 246,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 3.4
+                    },
+                    "family_id": 1,
+                    "timestamp": 1429107490545
+                },
+                {
+                    "id": 394,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 3.4
+                    },
+                    "family_id": 3,
+                    "timestamp": 1429106011133
+                },
+                {
+                    "id": 932,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family_id": 1,
+                    "timestamp": 1428962899044
+                },
+                {
+                    "id": 156,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family": 2,
+                    "timestamp": 1429054299943
+                }
+            ]
+        },
+        {
+            "id": 12345678,
+            "status": "up",
+            "last_seen_timestamp": 1429108623981,
+            "list_of_sensors": [
+                {
+                    "id": 156,
+                    "status": "up",
+                    "location": {
+                        "lat": 78.47,
+                        "lon": 49.05
+                    },
+                    "family_id": 1,
+                    "timestamp": 1429096498642
+                },
+                {
+                    "id": 783,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 3.4
+                    },
+                    "family_id": 2,
+                    "timestamp": 1429108619244
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "status": "up",
+            "last_seen_timestamp": 1429306719319,
+            "list_of_sensors": [
+                {
+                    "id": 999,
+                    "status": "up",
+                    "location": {
+                        "lat": 23.9,
+                        "lon": 56.9
+                    },
+                    "family_id": 5,
+                    "timestamp": 1429306719319
+                },
+                {
+                    "id": 352,
+                    "status": "up",
+                    "location": {
+                        "lat": 23.9,
+                        "lon": 56.9
+                    },
+                    "family_id": 1,
+                    "timestamp": 1429306719319
+                }
+            ]
+        }
+    ]
+}

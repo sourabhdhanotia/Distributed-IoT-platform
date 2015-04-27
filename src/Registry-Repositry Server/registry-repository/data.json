@@ -1,0 +1,187 @@
+{
+    "gateways": [
+        {
+            "id": "0",
+            "is_active": "false",
+            "list_of_sensors": [
+                {
+                    "id": "0000",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "temperature",
+                    "protocol": "p1",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": "0001",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "temperature",
+                    "protocol": "p2",
+                    "manufacturer": "m3",
+                    "series": "s1"
+                },
+                {
+                    "id": "0002",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "pressure",
+                    "protocol": "p1",
+                    "manufacturer": "m2",
+                    "series": "s1"
+                },
+                {
+                    "id": "0003",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "motin",
+                    "protocol": "p1",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "is_active": "true",
+            "list_of_sensors": [
+                {
+                    "id": "1000",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "temperature",
+                    "protocol": "p1",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": "1001",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "motion",
+                    "protocol": "p2",
+                    "manufacturer": "m6",
+                    "series": "s1"
+                },
+                {
+                    "id": "1002",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "pressure",
+                    "protocol": "p1",
+                    "manufacturer": "m4",
+                    "series": "s1"
+                },
+                {
+                    "id": "1003",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "pressure",
+                    "protocol": "p1",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "is_active": "true",
+            "list_of_sensors": [
+                {
+                    "id": "2000",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "temperature",
+                    "protocol": "p1",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": "2001",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "presuure",
+                    "protocol": "p2",
+                    "manufacturer": "m5",
+                    "series": "s1"
+                },
+                {
+                    "id": "2002",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "pressure",
+                    "protocol": "p1",
+                    "manufacturer": "m2",
+                    "series": "s1"
+                },
+                {
+                    "id": "2003",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "pressure",
+                    "protocol": "p1",
+                    "manufacturer": "m3",
+                    "series": "s1"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "is_active": "true",
+            "list_of_sensors": [
+                {
+                    "id": "3004",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "motion",
+                    "protocol": "p1",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": "3005",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "temperature",
+                    "protocol": "p2",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": "3006",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "pressure",
+                    "protocol": "p1",
+                    "manufacturer": "m1",
+                    "series": "s2"
+                },
+                {
+                    "id": "3007",
+                    "lat": 2.3,
+                    "lon": 6.4,
+                    "family": "pressure",
+                    "protocol": "p1",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                }
+            ]
+        },
+        {
+            "id": "1222",
+            "is_active ": "false",
+            "list_of_sensors": [
+                {
+                    "id": "12221",
+                    "lat": "j",
+                    "lon": "iji",
+                    "family ": "jij",
+                    "protocol": "ji",
+                    "manufacture": "j",
+                    "series": "ji"
+                }
+            ]
+        }
+    ]
+}

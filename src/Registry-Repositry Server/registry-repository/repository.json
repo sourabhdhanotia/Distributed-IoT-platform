@@ -1,0 +1,172 @@
+{
+    "gateways": [
+        {
+            "id": 0,
+            "is_active": true,
+            "list_of_sensors": [
+                {
+                    "id": 246,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 1,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 394,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 4,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 932,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family_id": 1,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "is_active": true,
+            "list_of_sensors": [
+                {
+                    "id": 1001,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family_id": 11,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 1101,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 12,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 2101,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 22,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 1201,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family_id": 12,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 2001,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 21,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 2002,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 21,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 2003,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 21,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 2004,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 21,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 2005,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 21,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 2006,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 21,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                }
+            ]
+        }
+    ]
+}

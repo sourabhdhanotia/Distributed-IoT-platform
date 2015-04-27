@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HealthSensor</string>
+    <string name="title">HealthSensor</string>
+    <string name="action_settings">Settings</string>
+    <string name="sensor_label">Sensor Id</string>
+    <string name="sensor_type">Sensor Type</string>
+
+</resources>

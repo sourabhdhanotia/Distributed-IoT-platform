@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textSize="30sp"
+        />
+
+    <TextView android:text="@string/sensor_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sid"
+        android:layout_below="@id/title"
+        android:textSize="15sp"
+        />
+
+    <TextView android:text="@string/sensor_type" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stype"
+        android:layout_below="@id/sid"
+        android:textSize="15sp"
+        />
+    <TextView android:text="@string/title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tag"
+        android:layout_below="@id/stype"
+        android:textSize="15sp"
+        />
+
+</RelativeLayout>

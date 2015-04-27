@@ -1,0 +1,136 @@
+{
+    "gateways": [
+        {
+            "id": 0,
+            "is_active": true,
+            "list_of_sensors": [
+                {
+                    "id": 246,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 1,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 394,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 4,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 932,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family_id": 1,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                }
+            ]
+        },
+        {
+            "id": 12345678,
+            "is_active": true,
+            "list_of_sensors": [
+                {
+                    "id": 156,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family_id": 3,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 783,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.3,
+                        "lon": 6.4
+                    },
+                    "family_id": 3,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "is_active": true,
+            "list_of_sensors": [
+                {
+                    "id": 352,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family_id": 1,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                },
+                {
+                    "id": 999,
+                    "status": "up",
+                    "location": {
+                        "lat": 2.5,
+                        "lon": 5
+                    },
+                    "family_id": 5,
+                    "protocol": "bluetooth",
+                    "manufacturer": "m1",
+                    "series": "s1"
+                }
+            ]
+        },
+        {
+            "id": 999,
+            "is_active": false,
+            "list_of_sensors": [
+                {
+                    "id": 9991,
+                    "status": "up",
+                    "location": {
+                        "lat": 5.3,
+                        "lon": 2.6
+                    },
+                    "family_id": 1,
+                    "protocol": "bluetooth",
+                    "manufacturer": "fujitsu",
+                    "series": "s1"
+                },
+                {
+                    "id": 9992,
+                    "status": "up",
+                    "location": {
+                        "lat": 5.3,
+                        "lon": 2.6
+                    },
+                    "family_id": 2,
+                    "protocol": "bluetooth",
+                    "manufacturer": "fujitsu",
+                    "series": "s1"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+http://localhost:3000/authenticateUser
+
+{
+	userName : sourabh
+	password : password
+	lat : 23.33
+	lon : 34.44
+}
+
+{
+    "isAuthenticated": true,
+    "accessKey": "sourabh"
+}
+
+
+//-------------------------------------------------------------------
+http://localhost:3000/sendSensorDataToUser
+
+{
+	accessKey : sourabh
+}
+
+{ "version": "1.0", "timestamp": "2015-04-17T09:57:04.765Z", "comments": "Data of all the sensors requested.", "request": { "ids": [ 1 ] }, "data": [ { "sensorData": { "unit": "Lux", "value": 34.57 }, "lon": 6.8, "lat": 2.5, "sensorFamilyId": 3, "sensorId": 1 }, ] }

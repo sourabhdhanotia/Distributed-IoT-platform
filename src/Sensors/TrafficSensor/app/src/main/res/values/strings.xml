@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrafficSensor</string>
+    <string name="title">TrafficSensor</string>
+    <string name="action_settings">Settings</string>
+    <string name="sensor_label">Sensor Id</string>
+    <string name="sensor_type">Sensor Type</string>
+
+</resources>
